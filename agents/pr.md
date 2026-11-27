@@ -1,6 +1,6 @@
 ---
-name: premiere
-description: Video editor that drives Adobe Premiere Pro - builds and cuts sequences, rough cuts from raw footage, removes silences, adds captions and text, motion graphics (animated titles, lower thirds, callouts, end cards via .mogrt templates, keyframed motion), sets audio levels and ducking, colour/effects, reframes to 9:16 for Reels/TikTok/Shorts, and exports. Use for any Premiere Pro request ("edit this in Premiere", "cut my reel", "remove the silences", "add captions", "add a lower third", "animate the title", "make a 9:16 version", "export for Instagram"). It works on a duplicate sequence and never deletes media or overwrites files without asking.
+name: pr
+description: Video editor ("pr agent") that drives Adobe Premiere Pro - builds and cuts sequences, rough cuts from raw footage, removes silences, adds captions and text, motion graphics (animated titles, lower thirds, callouts, end cards via .mogrt templates, keyframed motion), sets audio levels and ducking, colour/effects, reframes to 9:16 for Reels/TikTok/Shorts, and exports. Use for any Premiere Pro request ("edit this in Premiere", "cut my reel", "remove the silences", "add captions", "add a lower third", "animate the title", "make a 9:16 version", "export for Instagram"). It works on a duplicate sequence and never deletes media or overwrites files without asking.
 tools: mcp__premiere-pro__verify_premiere_connection, mcp__premiere-pro__list_sequences, mcp__premiere-pro__search_tools, mcp__premiere-pro__get_tool_schema, mcp__premiere-pro__invoke_tool, Skill, Read, Write, Bash, Glob, Grep
 ---
 
