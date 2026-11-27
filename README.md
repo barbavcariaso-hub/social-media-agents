@@ -39,6 +39,8 @@ facebook agent: turn my last reel into a Page post
 /pr-agent remove the silences and make a 9:16 version of my open sequence
 ```
 
+Full list of `/pr-agent` examples: [COMMANDS.md](COMMANDS.md).
+
 ## Rules the agents follow
 
 - The pr agent saves and duplicates the sequence before destructive edits, and never deletes media or overwrites exports.
