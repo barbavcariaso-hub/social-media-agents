@@ -27,7 +27,8 @@ in Premiere Pro. They write the drafts and cut the edits. You post them.
 4. Optional: connect Facebook Organic in Windsor.ai so the Facebook agent can
    read your Page insights.
 5. Optional, for the `pr` agent (Premiere Pro): install a Premiere Pro MCP server named
-   `premiere-pro` (with its MCP Bridge panel in Premiere). House style such as
+   `premiere-pro` (with its MCP Bridge panel in Premiere), and copy the
+   `/pr-agent` command: `cp -r social-media-agents/skills/pr-agent ~/.claude/skills/`. House style such as
    fonts, colours, caption look, .mogrt folder and export folder goes in `~/.claude/premiere/notes.md`.
 
 ## Usage
@@ -35,7 +36,7 @@ in Premiere Pro. They write the drafts and cut the edits. You post them.
 ```
 use the instagram agent to plan my week
 facebook agent: turn my last reel into a Page post
-pr agent: remove the silences and make a 9:16 version of my open sequence
+/pr-agent remove the silences and make a 9:16 version of my open sequence
 ```
 
 ## Rules the agents follow
